@@ -11,24 +11,52 @@
 		<meta name="author" content="smellbus">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
+	<body onload="storageReset()">
+	
 		<div id="navbar">
 			<p>Work</p>
 			<p>About</p>
 			<p>Contact</p>
 		</div>
+<!--Images, organised in a gallery layout.-->
+
+
 		<div class="row">
 		<div class="column">
-			<img id="bigbongs" src="images/bigBongs.png">
-			<img id="critters" src="images/bluecritters.png">
-			
+			<a href="artwork_details.html">
+				<img class="gallery" id="spooky" src="images/spookygirlfriends.jpg" onclick="loadKeyword('girlfriends')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" src="images/bluecritters.png" onclick="loadKeyword('blue')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" id="newseoul" src="images/newseoul.png" onclick="loadKeyword('newseoul')">
+			</a>
 		</div>
 		<div class="column">
-			<img id="spooky" src="images/spookygirlfriends.jpg">
-			<img id="epiccool" src="images/epic_cool.png">
+			<a href="artwork_details.html">
+				<img class="gallery" id="halforc" src="images/halforccharacter.png" onclick="loadKeyword('halforc')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" id="beef" src="images/beef.png" onclick="loadKeyword('beef')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" id="logo" src="images/smellbuslogo.png" onclick="loadKeyword('logo')">
+			</a>
 		</div>
 		<div class="column">
-			<img id="gabriel" src="images/gabriel.png">
+			<a href="artwork_details.html">
+				<img class="gallery" id="gabriel" src="images/gabriel.png" onclick="loadKeyword('gabriel')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" src="images/monster.png" onclick="loadKeyword('monster')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" id="moodpainting" src="images/moodpainting.png" onclick="loadKeyword('moodpainting')">
+			</a>
+			<a href="artwork_details.html">
+				<img class="gallery" id="uke" src="images/ukewallpaper.png" onclick="loadKeyword('uke')">
+			</a>
 		</div>
 		</div>
 	</body>
