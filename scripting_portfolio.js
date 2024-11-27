@@ -89,7 +89,7 @@ function keywordSet() {
 /* 
 dynamicDescription:
 
-This function, called above in keywordSet, will fill out the innerHTML of the title, description and relevant elements of the artwork_details page.
+This function, called above in keywordSet, will fill out the innerHTML of the title, description and image of the artwork_details page.
 */
 function dynamicDescription() {
 	document.getElementById("detailedTitle").innerHTML = detailedTitle;

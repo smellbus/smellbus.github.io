@@ -5,6 +5,7 @@
 
 body {
 	margin: 0;
+	background-color: #3e15a2;
 }
 
 
@@ -19,29 +20,29 @@ body {
 	position: sticky;
 	top: 0;
 	overflow: hidden;
-	background-color: green;
+	background-color: #664aae;
 	z-index: 1;
 }
 
 #navbar p {
 	float: left;
 	display: block;
-	color: #FFFFFF;
+	color: #fee4a7;
 	text-align: center;
 	padding: 20px;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 #navbar p:hover {
-	background-color: #FFF;
-	color: #000;
+	background-color: #fee4a7;
+	color: #3e15a2;
 }
 
 
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 4px;
 }
 
 .column img {
@@ -67,10 +68,23 @@ body {
 /*TODO: Tweak image max-height after text is formatted.  */
 .detailed {
 	max-height: 800px;
+	max-width: 100%;
+	height: auto;
+	padding-left: 5px;
+	padding-right: 5px;
 }
+
 
 .gallery:hover {
 	background-color: #FFFFFF;
 	opacity: 0.80;
 	transition: linear 0.2s;
+}
+
+.titletext {
+	color: #FEE4A7;
+}
+
+.descriptiontext {
+	color: #f9fda6;
 }
