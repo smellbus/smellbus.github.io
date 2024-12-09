@@ -89,10 +89,31 @@ function keywordSet() {
 /* 
 dynamicDescription:
 
-This function, called above in keywordSet, will fill out the innerHTML of the title, description and image of the artwork_details page.
+This function, called above in keywordSet, will fill 
+out the innerHTML of the title, description and image 
+of the artwork_details page.
 */
 function dynamicDescription() {
 	document.getElementById("detailedTitle").innerHTML = detailedTitle;
 	document.getElementById("detailedImage").src = detailSrcImage;
+	document.getElementById("modalImage").src = detailSrcImage;
 	document.getElementById("descriptionBox").innerHTML = detailedDesc;
 }
+
+/*
+showModal:
+
+This function will cause the modal 'detailed view' panel 
+to appear, and subsequently disappear upon the next click.
+*/
+function showModal(mode) {
+	if (mode == 1) {
+		document.getElementById('zoomModal').style.display = 'block';
+		document.getElementById('zoomModal').style.position = 'fixed';
+	} else if (mode == 0) {
+		document.getElementById('zoomModal').style.display = 'none';
+		document.getElementById('zoomModal').style.position = 'fixed';
+	}
+	
+}
+

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>smellbus - portfolio</title>
+		<title>smellbus - artwork details</title>
 		<link rel="stylesheet" href="style_portfolio.css">
 		<script src="scripting_portfolio.js"></script>
-		
 		
 		<meta charset="UTF-8">
 		<meta name="keywords" content="smellbus">
@@ -17,13 +16,23 @@
 			<p>About</p>
 			<p>Contact</p>
 		</div>
-		
-		<!--title and larger image, followed by a brief description and longer explanation-->
-		<h1 id="detailedTitle" class="titletext">TITLE</h1>
-		<!--TODO: Add proper placeholder image.-->
-		<img id="detailedImage" class="detailed" src="images/noimage.png">
-		<div id="descriptionDiv" class="detailBox">
-		<p id="descriptionBox" class="descriptiontext"></p>
+		<!--This modal will appear upon clicking the image highlighted on the page.-->
+		<div id="zoomModal" class="modalClass" onClick="showModal(0);">
+			<img id="modalImage" class="modalImgClass">
 		</div>
+		
+		<div class="InitialAboutContent">
+				<!--title and larger image, followed by a brief description and longer explanation-->
+				<h1 id="detailedTitle" class="titletext">TITLE</h1>
+				<!--This detailed image will show a modal with an even larger version of the image upon click.-->
+				<img id="detailedImage" class="detailed" src="images/noimage.png" onClick="showModal(1);">
+				
+			
+			<div id="descriptionDiv" class="detailBox">
+				<p id="descriptionBox" class="descriptiontext"></p>
+			</div>
+		</div>
+		
+		
 	</body>
 	</html>
