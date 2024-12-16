@@ -42,7 +42,7 @@ function keywordSet() {
 		case "newseoul":
 			detailedTitle = "City Concept Painting - Digital Paint Commission"
 			detailSrcImage = "images/newseoul.png"
-			detailedDesc = "I made this. it is a background for the comic Engraved."
+			detailedDesc = "I made this. This is placeholder text."
 			break;
 		case "halforc":
 			detailedTitle = "Half-Orc Fighter - D&D Character Design"
@@ -57,7 +57,7 @@ function keywordSet() {
 		case "logo":
 			detailedTitle = "Alternative Logo Design - Vector Illustration"
 			detailSrcImage = "images/smellbuslogo.png"
-			detailedDesc = "I made this. it is logo."
+			detailedDesc = "I made this. This is placeholder text."
 			break;
 		case "monster":
 			detailedTitle = "Monster - Vector Illustration"
@@ -72,12 +72,12 @@ function keywordSet() {
 		case "moodpainting":
 			detailedTitle = "Colour Study - Digital Painting"
 			detailSrcImage = "images/moodpainting.png"
-			detailedDesc = "I made this. it is painting."
+			detailedDesc = "I made this. This is placeholder text."
 			break;
 		case "uke":
 			detailedTitle = "Ukelele Wallpaper - Vector Illustration"
 			detailSrcImage = "images/ukewallpaper.png"
-			detailedDesc = "I made this. it is ukelele."
+			detailedDesc = "I made this. This is placeholder text."
 			break;
 		default:
 		break;
